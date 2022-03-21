@@ -36,7 +36,7 @@ namespace Praktikum_21_Maret
 
         private void ListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            LbOutput.Text=ListBoxData.SelectedItem.ToString();
+            LbOutput.Text=ListBoxData.SelectedItem.ToString(); 
         }
 
         private void BtnClear_Click(object sender, EventArgs e)
